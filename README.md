@@ -5,6 +5,8 @@
 ### Here are my study notes
 
 ### 🧠 Mind Map (Key Concepts)
+  [📥 **Download High-Resolution Mind Map** (.jpg)](./agents-architecture-operations%20and%20evolution-mindmap.jpg?raw=true)
+  <br>  
 <details>
   <summary>
     <h3>🔍 Click here to unfold the full Mind Map (agents-architecture-operations and evolution-mindmap.jpg)  
@@ -12,8 +14,9 @@
     <br> (点击展开完整思维导图)
     </h3>
   </summary>
-   
+
   ![AI Agent Architecture Operations and Evolution Mindmap](agents-architecture-operations%20and%20evolution-mindmap.jpg)
+ 
 </details>
 
 
