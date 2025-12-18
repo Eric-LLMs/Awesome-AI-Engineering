@@ -18,7 +18,7 @@
 
 
 ### 📑 Presentation Slides
-> 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.
-
-[📥 View the "AI Agent Architecture Operations and Evolution" Slides (PDF)](agents-architecture-operations-slides.pdf)
-
+> 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
+[📥 View the "AI Agent Architecture Operations and Evolution" Slides (PDF)](agents-architecture-operations-slides.pdf)   
+[📥 **Download PDF** (Direct Link)](./agents-architecture-operations-slides.pdf?raw=true)  
+> 
