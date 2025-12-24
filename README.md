@@ -36,7 +36,9 @@ To bridge theory with practice, I developed a modular AI Agent project that impl
 
 👉 [**View AI Agent Project on Eric-LLMs GitHub**](https://github.com/Eric-LLMs/LLMs-Lab/tree/main/Agent/Agent_Project)
 
-
+  
+    
+  
      
 # 📚 Book Note: Building LLMs for Production 
 
