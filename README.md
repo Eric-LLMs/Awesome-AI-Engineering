@@ -28,7 +28,9 @@
 > 
   
 
-### 🚀 Practical Implementation: Task-Oriented AI Agent
+### 🚀 Practical Implementation: Task-Oriented AI Agent  
+👉 [**View the AI Agent Project in the LLMs-Lab repository on the Eric-LLMs GitHub profile.**](https://github.com/Eric-LLMs/LLMs-Lab/tree/main/Agent/Agent_Project)
+  
 To bridge theory with practice, I developed a modular AI Agent project that implements autonomous reasoning and task execution:
 
 * **Architecture:** Utilizes a decoupled structure with dedicated directories for `Agent` logic, `Tools`, and `Prompts`.
@@ -36,7 +38,6 @@ To bridge theory with practice, I developed a modular AI Agent project that impl
 * **Functional Tools:** Includes custom tools for deep data analysis (Excel processing via Pandas), automated communication via email, PDF-based QA interrogation (**FileQATool**), requirements-driven document generation (**WriterTool**), and dynamic script-based auditing of structured files using custom heuristics and thresholds (**PythonTool**).
 * **End-to-End Workflow:** Supports real-world scenarios, such as identifying underperforming suppliers from sales records and autonomously drafting/sending notifications.
 
-👉 [**View the AI Agent Project in the LLMs-Lab repository on the Eric-LLMs GitHub profile.**](https://github.com/Eric-LLMs/LLMs-Lab/tree/main/Agent/Agent_Project)
 
 ---
 <br>  
@@ -67,9 +68,10 @@ To bridge theory with practice, I developed a modular AI Agent project that impl
 [📥 **Download PDF** (Direct Link)](./summaries/building-llms-for-production/building-llms-for-production-slides.pdf?raw=true)
   
 
-### 🛠️ Hands-on Lab & Examples
+### 🛠️ Hands-on Lab & Examples  
+👉 [**Explore Practical LLM Implementations in the LLMs-Lab repository on the Eric-LLMs GitHub profile.**](https://github.com/Eric-LLMs/LLMs-Lab)
+  
 The production-grade principles discussed in this book—including **Fine-Tuning**, **RAG optimization**, **LangChain**, **Prompt Engineering**, **Function-Calling**, **Agent**, etc.—have each been researched as a standalone module, and each module features multiple project implementations.
 
-👉 [**Explore Practical LLM Implementations in the LLMs-Lab repository on the Eric-LLMs GitHub profile.**](https://github.com/Eric-LLMs/LLMs-Lab)
 
 
