@@ -45,7 +45,7 @@
   
 To bridge theory with practice, I developed a modular AI Agent project that implements autonomous reasoning and task execution:
 
-* **Architecture:** Utilizes a decoupled structure with dedicated directories for `Agent` logic, `Tools`, and `Prompts`.
+* **Architecture:** Utilizes a decoupled structure with dedicated directories for `Agent` logic, `Tools`, `Utils`, and `Prompts`.
 * **Reasoning Loop:** Features an `AutoGPT.py` implementation using **ReAct (Reasoning and Acting)** logic to handle complex, multi-step goal decomposition.
 * **Functional Tools:** Includes custom tools for deep data analysis (Excel processing via Pandas), automated communication via email, PDF-based QA interrogation (**FileQATool**), requirements-driven document generation (**WriterTool**), and dynamic script-based auditing of structured files using custom heuristics and thresholds (**PythonTool**).
 * **End-to-End Workflow:** Supports real-world scenarios, such as identifying underperforming suppliers from sales records and autonomously drafting/sending notifications.
