@@ -1,9 +1,20 @@
-# Book Notes
+# 📖 Learning Journey: ML & LLM Engineering
+
+<a id="top"></a>
+
+## 📑 Table of Contents
+
+| 📚 Book Title                  | 🔗 Quick Link                        |
+|:------------------------------|:-------------------------------------|
+| Introduction to AI Agents     |[🔍 Explore](#introduction-to-ai-agents)     |
+| Building LLMs for Production  |[🔍 Explore](#building-llms-for-production)  |
+
 ---
 <br>  
+<a id="introduction-to-ai-agents"></a>  
   
 # 📚 Book Note: Introduction to AI Agents
-
+[⬆️ Back to Top : Table of Contents](#top)  
 ### Here are my study notes
 
 ### 🧠 Mind Map (Key Concepts)
@@ -41,8 +52,10 @@ To bridge theory with practice, I developed a modular AI Agent project that impl
 
 ---
 <br>  
-     
+<a id="building-llms-for-production"></a>   
+ 
 # 📚 Book Note: Building LLMs for Production 
+[⬆️ Back to Top : Table of Contents](#top)  
 
 ### Here are my study notes
 
