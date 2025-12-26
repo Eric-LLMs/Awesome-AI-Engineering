@@ -22,10 +22,9 @@
   <br>  
 <details>
   <summary>
-    <h3>🔍 Click here to unfold the full Mind Map (agents-architecture-operations-and-evolution-mindmap.jpg)  
-    <br> 
+    <b><em>🔍 Click here to unfold the full Mind Map (agents-architecture-operations-and-evolution-mindmap.jpg)</em> 
     <br> (点击展开完整思维导图)
-    </h3>
+    </b>
   </summary>  
 
   ![Introduction to AI Agents Mindmap](./summaries/introduction-to-ai-agents/agents-architecture-operations-and-evolution-mindmap.jpg)
@@ -64,10 +63,9 @@ To bridge theory with practice, I developed a modular AI Agent project that impl
 <br>  
 <details>
   <summary>
-    <h3>🔍 Click here to unfold the full Mind Map (building-llms-for-production-mindmap.jpg)  
-    <br> 
+    <b><em>🔍 Click here to unfold the full Mind Map (building-llms-for-production-mindmap.jpg)</em>
     <br> (点击展开完整思维导图)
-    </h3>
+    </b>
   </summary>
 
   ![Building LLMs for Production Mind Map](./summaries/building-llms-for-production/building-llms-for-production-mindmap.jpg)
