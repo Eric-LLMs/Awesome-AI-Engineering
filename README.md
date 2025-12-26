@@ -56,7 +56,6 @@ To bridge theory with practice, I developed a modular AI Agent project that impl
 <a id="building-llms-for-production"></a>   
  
 # 📚 Book Note: Building LLMs for Production 
-[⬆️ Back to Top : Table of Contents](#top)  
 
 ### Here are my study notes
 
