@@ -6,10 +6,11 @@
 
 ## 📑 Table of Contents
 
-| 📚 Book Title                  | 🔗 Quick Link                               |
-|:------------------------------|:--------------------------------------------|
-| Introduction to AI Agents     | [🔍 Explore](#introduction-to-ai-agents)    |
-| Building LLMs for Production  | [🔍 Explore](#building-llms-for-production) |
+| 📚 Book Title                 | 🔗 Quick Link                                                        |
+|:------------------------------|:---------------------------------------------------------------------|
+| Introduction to AI Agents     | [🔍 Explore](#introduction-to-ai-agents)                             |
+| Building LLMs for Production  | [🔍 Explore](#building-llms-for-production)                          |
+| Mastering of Model Context Protocol (MCP)  | [🔍 Explore](#mastering-the-model-context-protocol)                             |
 
 ---
 <br>  
@@ -90,6 +91,40 @@ The production-grade principles discussed in this book—including **Fine-Tuning
 ---
 <br>  
 
+<a id="mastering-the-model-context-protocol"></a>   
+ 
+# 📚 Book Note: Mastering of Model Context Protocol (MCP)  
 
+### Here are my study notes
+
+### 🧠 Mind Map (Key Concepts)
+[📥 **Download High-Resolution Mind Map** (.jpg)](./summaries/mastering-the-model-context-protocol/mastering-the-model-context-protocol-mindmap.jpg?raw=true)
+<br>  
+<details>
+  <summary>
+    <b><em>🔍 Click here to unfold the full Mind Map (mastering-the-model-context-protocol-mindmap.jpg)</em>
+    <br> (点击展开完整思维导图)
+    </b>
+  </summary>
+
+  ![Mastering of Model Context Protocol (MCP)](./summaries/mastering-the-model-context-protocol/mastering-the-model-context-protocol-mindmap.jpg)
+ 
+</details>
+
+
+### 📑 Presentation Slides
+> 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
+[📥 View the "Mastering of Model Context Protocol (MCP)" Slides (PDF)](./summaries/mastering-the-model-context-protocol/mastering-the-model-context-protocol-slides.pdf)   
+[📥 **Download PDF** (Direct Link)](./summaries/mastering-the-model-context-protocol/mastering-the-model-context-protocol-slides.pdf?raw=true)
+  
+
+### 🛠️ Hands-on Lab & Examples  
+👉 [**Explore Model Context Protocol (MCP) project on Github.**](https://github.com/Eric-LLMs/awesome-mcp-servers)
+  
+A curated list of awesome Model Context Protocol (MCP) servers.
+
+[⬆️ Back to Top : Table of Contents](#top)  
+---
+<br>  
 
 
