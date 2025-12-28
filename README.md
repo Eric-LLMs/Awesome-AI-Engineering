@@ -10,7 +10,7 @@
 |:------------------------------|:---------------------------------------------------------------------|
 | Introduction to AI Agents     | [🔍 Explore](#introduction-to-ai-agents)                             |
 | Building LLMs for Production  | [🔍 Explore](#building-llms-for-production)                          |
-| Mastering of Model Context Protocol (MCP)  | [🔍 Explore](#mastering-the-model-context-protocol)                             |
+| Mastering the Model Context Protocol (MCP)  | [🔍 Explore](#mastering-the-model-context-protocol)                             |
 
 ---
 <br>  
@@ -93,7 +93,7 @@ The production-grade principles discussed in this book—including **Fine-Tuning
 
 <a id="mastering-the-model-context-protocol"></a>   
  
-# 📚 Book Note: Mastering of Model Context Protocol (MCP)  
+# 📚 Book Note: Mastering the Model Context Protocol (MCP)  
 
 ### Here are my study notes
 
@@ -107,14 +107,14 @@ The production-grade principles discussed in this book—including **Fine-Tuning
     </b>
   </summary>
 
-  ![Mastering of Model Context Protocol (MCP)](./summaries/mastering-the-model-context-protocol/mastering-the-model-context-protocol-mindmap.jpg)
+  ![Mastering the Model Context Protocol (MCP)](./summaries/mastering-the-model-context-protocol/mastering-the-model-context-protocol-mindmap.jpg)
  
 </details>
 
 
 ### 📑 Presentation Slides
 > 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
-[📥 View the "Mastering of Model Context Protocol (MCP)" Slides (PDF)](./summaries/mastering-the-model-context-protocol/mastering-the-model-context-protocol-slides.pdf)   
+[📥 View the "Mastering the Model Context Protocol (MCP)" Slides (PDF)](./summaries/mastering-the-model-context-protocol/mastering-the-model-context-protocol-slides.pdf)   
 [📥 **Download PDF** (Direct Link)](./summaries/mastering-the-model-context-protocol/mastering-the-model-context-protocol-slides.pdf?raw=true)
   
 
