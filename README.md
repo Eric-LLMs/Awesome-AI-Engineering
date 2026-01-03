@@ -148,11 +148,17 @@ The production-grade principles discussed in this book—including **Fine-Tuning
 </details>
 
 
-### 📑 Presentation Slides
-> 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
-[📥 View the "Unforgettable Agents Architecting AI Memory" Slides (PDF)](./summaries/f)   
-[📥 **Download PDF** (Direct Link)](./summaries/s.pdf?raw=true)
+### 📑 Presentation Slides   
   
+#### A Blueprint for Memory in Agentic Intelligence
+> 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
+[📥 View the "A Blueprint for Memory in Agentic Intelligence" Slides (PDF)](./summaries/memory-in-the-age-of-ai-agents-survey/a-blueprint-for-memory-in-agentic-intelligence.pdf)   
+[📥 **Download PDF** (Direct Link)](./summaries/memory-in-the-age-of-ai-agents-survey/a-blueprint-for-memory-in-agentic-intelligence.pdf?raw=true)
+  
+#### Unforgettable Agents Architecting AI Memory
+> 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
+[📥 View the "Unforgettable Agents Architecting AI Memory" Slides (PDF)](./summaries/memory-in-the-age-of-ai-agents-survey/unforgettable_agents_architecting_ai_memory.pdf)   
+[📥 **Download PDF** (Direct Link)](./summaries/memory-in-the-age-of-ai-agents-survey/unforgettable_agents_architecting_ai_memory.pdf?raw=true)
 
 
 [⬆️ Back to Top : Table of Contents](#top)  
