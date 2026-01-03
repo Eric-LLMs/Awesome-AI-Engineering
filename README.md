@@ -161,6 +161,12 @@ The production-grade principles discussed in this book—including **Fine-Tuning
 [📥 **Download PDF** (Direct Link)](./summaries/memory-in-the-age-of-ai-agents-survey/unforgettable_agents_architecting_ai_memory.pdf?raw=true)
 
 
+### 📑 Further Reading / Resources
+
+For a comprehensive list of papers related to Agent Memory, we highly recommend checking out:  
+👉  * [Agent-Memory-Paper-List](https://github.com/Shichun-Liu/Agent-Memory-Paper-List) by Shichun-Liu.
+
+
 [⬆️ Back to Top : Table of Contents](#top)  
 ---
 <br>  
