@@ -6,13 +6,13 @@
 
 ## 📑 Table of Contents
 
-| 📚 Book Title                              | 🔗 Quick Link                                       |
-|:-------------------------------------------|:----------------------------------------------------|
-| Introduction to AI Agents                  | [🔍 Explore](#introduction-to-ai-agents)            |
-| Building LLMs for Production               | [🔍 Explore](#building-llms-for-production)         |
-| Mastering the Model Context Protocol (MCP) | [🔍 Explore](#mastering-the-model-context-protocol) |
-| Agent Memory Part I                        | [🔍 Explore](#agent-memory-part-i)                  |
-| Agent Memory Part II                       | [🔍 Explore](#agent-memory-part-ii)                 |
+| 📚 Book Title                                                             | 🔗 Quick Link                                                 |
+|:--------------------------------------------------------------------------|:--------------------------------------------------------------|
+| Introduction to AI Agents                                                 | [🔍 Explore](#introduction-to-ai-agents)                      |
+| Building LLMs for Production                                              | [🔍 Explore](#building-llms-for-production)                   |
+| Mastering the Model Context Protocol (MCP)                                | [🔍 Explore](#mastering-the-model-context-protocol)           |
+| Agent Memory Part I  (A Survey of Memory)                                 | [🔍 Explore](#agent-memory-part-i)                            |
+| Agent Memory Part II (Building Memory Modules for Agentic AI Systems)     | [🔍 Explore](#building-memory-modules-for-agentic-ai-Systems) |
 
 ---
 <br>  
@@ -173,41 +173,43 @@ For a comprehensive list of papers related to Agent Memory, we highly recommend 
 <br>  
 
   
-<a id="agent-memory-part-ii"></a>   
+<a id="building-memory-modules-for-agentic-ai-Systems"></a>   
  
-# 📚 Book Note: Agent Memory Part II
-
+# 📚 Book Note: Building Memory Modules for Agentic AI Systems
+A comprehensive guide on designing memory systems for AI Agents. This document synthesizes academic surveys with practical implementation strategies, covering: * Theory: Taxonomy of agent memory (Forms, Functions, Dynamics). * Frameworks: Deep dive into Mem0, Letta (MemGPT), and LangMem. * Practice: Enterprise-grade solutions using Amazon Bedrock AgentCore
 ### Here are my study notes
 
 ### 🧠 Mind Map (Key Concepts)
-[📥 **Download High-Resolution Mind Map** (.jpg)](./summaries/.jpg?raw=true)
+[📥 **Download High-Resolution Mind Map** (mindmap.png)](./summaries/building-memory-for-agentic-ai-theory-frameworks-and-practice/building-memory-for-agentic-ai-theory-frameworks-and-practice-mindmap.png?raw=true)
 <br>  
 <details>
   <summary>
-    <b><em>🔍 Click here to unfold the full Mind Map (mindmap.jpg)</em>
+    <b><em>🔍 Click here to unfold the full Mind Map</em>
     <br> (点击展开完整思维导图)
     </b>
   </summary>
 
-  ![memory soltion in pruduction](./summaries/.jpg)
+  ![memory solution in production](./summaries/building-memory-for-agentic-ai-theory-frameworks-and-practice/building-memory-for-agentic-ai-theory-frameworks-and-practice-mindmap.png)
  
 </details>
 
 
 ### 📑 Presentation Slides   
   
-#### A Blueprint for Memory in Agentic Intelligence
+#### Building Memory for Agentic AI: Theory, Frameworks, and Practice
 > 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
-[📥 View the "agent memory soltion in pruduction" Slides (PDF)](./summaries/e.pdf)   
-[📥 **Download PDF** (Direct Link)](./summaries/m.pdf?raw=true)
+[📥 View Slides (PDF)](./summaries/building-memory-for-agentic-ai-theory-frameworks-and-practice/building-memory-for-agentic-ai-theory-frameworks-and-practice.pdf)   
+[📥 **Download PDF** (Direct Link)](./summaries/building-memory-for-agentic-ai-theory-frameworks-and-practice/building-memory-for-agentic-ai-theory-frameworks-and-practice.pdf?raw=true)
+
+### 📑 Key Frameworks & Code Samples
+
+The following frameworks and repositories are discussed in this guide, representing the current state-of-the-art in Agentic Memory:  
+* **[Mem0](https://github.com/mem0ai/mem0)**: A dual-layer memory framework supporting working, factual, and semantic memory types for agent state persistence.
+* **[Letta (MemGPT)](https://github.com/letta-ai/letta)**: Manages infinite context by treating agents like an OS with virtual memory and recursive summarization.
+* **[LangMem](https://github.com/langchain-ai/langmem)**: A LangChain library that implements Semantic, Episodic, and Procedural memory integration for LangGraph agents.
+* **[Amazon Bedrock Samples](https://github.com/aws-samples/amazon-bedrock-samples)**
+  Comprehensive collection of examples for using Amazon Bedrock, including various implementations of Agentic workflows and memory patterns.  
   
-#### Unforgettable Agents Architecting AI Memory
-> 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
-[📥 View the "agent memory soltion in pruduction" Slides (PDF)](./summaries/y.pdf)   
-[📥 **Download PDF** (Direct Link)](./summaries/y.pdf?raw=true)
-
-
-
 [⬆️ Back to Top : Table of Contents](#top)  
 ---
 <br>  
