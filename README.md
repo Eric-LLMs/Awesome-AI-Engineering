@@ -1,7 +1,7 @@
 # 📘 AI Engineering Notes
 
-###  A Comprehensive Guide to ML, DL, NLP, LLM & System Design
-
+####  A curated collection of AI Engineering resources, in-depth book notes, and production-grade best practices. Covers LLMs, Agents, RAG, MCP, and Machine Learning System Design.
+  
 <a id="top"></a>
 
 ## 📑 Table of Contents
