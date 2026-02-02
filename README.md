@@ -1,7 +1,7 @@
-# 📘 AI Engineering Notes
+# 📘 Awesome-AI-Engineering. 
 
-####  A curated collection of AI Engineering resources, in-depth book notes, and production-grade best practices. Covers LLMs, Agents, RAG, MCP, and Machine Learning System Design.
-  
+####      The Full-Stack LLM Engineering Playbook. 
+
 <a id="top"></a>
 
 ## 📑 Table of Contents
