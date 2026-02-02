@@ -1,4 +1,4 @@
-# 📘 Awesome AI Engineering. 
+# 📘 Awesome AI Engineering   
 
 ####  The Full-Stack LLM Engineering Playbook. 
 
