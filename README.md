@@ -1,4 +1,4 @@
-# 📘 Awesome-AI-Engineering. 
+# 📘 Awesome AI Engineering. 
 
 ####  The Full-Stack LLM Engineering Playbook. 
 
@@ -20,7 +20,7 @@
   
 # 📚 Introduction to AI Agents
   
-### Here are my study notes
+### 🔑 Key Concepts  
 
 ### 🧠 Mind Map (Key Concepts)
   [📥 **Download High-Resolution Mind Map** (.jpg)](./summaries/introduction-to-ai-agents/agents-architecture-operations-and-evolution-mindmap.jpg?raw=true)
@@ -61,7 +61,7 @@ To bridge theory with practice, I developed a modular AI Agent project that impl
  
 # 📚 Building LLMs for Production 
 
-### Here are my study notes
+### 🔑 Key Concepts  
 
 ### 🧠 Mind Map (Key Concepts)
 [📥 **Download High-Resolution Mind Map** (.jpg)](./summaries/building-llms-for-production/building-llms-for-production-mindmap.jpg?raw=true)
@@ -97,7 +97,7 @@ The production-grade principles discussed in this book—including **Fine-Tuning
  
 # 📚 Mastering the Model Context Protocol (MCP)  
 
-### Here are my study notes
+### 🔑 Key Concepts  
 
 ### 🧠 Mind Map (Key Concepts)
 [📥 **Download High-Resolution Mind Map** (.jpg)](./summaries/mastering-the-model-context-protocol/mastering-the-model-context-protocol-mindmap.jpg?raw=true)
@@ -132,7 +132,7 @@ The production-grade principles discussed in this book—including **Fine-Tuning
  
 # 📚 Agent Memory Part I 
 
-### Here are my study notes
+### 🔑 Key Concepts  
 
 ### 🧠 Mind Map (Key Concepts)
 [📥 **Download High-Resolution Mind Map** (.jpg)](./summaries/memory-in-the-age-of-ai-agents-survey/unforgettable_agents_architecting_ai_memory-mindmap.jpg?raw=true)
@@ -176,8 +176,9 @@ For a comprehensive list of papers related to Agent Memory, we highly recommend 
 <a id="building-memory-modules-for-agentic-ai-Systems"></a>   
  
 # 📚 Building Memory Modules for Agentic AI Systems
-A comprehensive guide on designing memory systems for AI Agents. This document synthesizes academic surveys with practical implementation strategies, covering: * Theory: Taxonomy of agent memory (Forms, Functions, Dynamics). * Frameworks: Deep dive into Mem0, Letta (MemGPT), and LangMem. * Practice: Enterprise-grade solutions using Amazon Bedrock AgentCore
-### Here are my study notes
+A comprehensive guide on designing memory systems for AI Agents. This document synthesizes academic surveys with practical implementation strategies, covering: * Theory: Taxonomy of agent memory (Forms, Functions, Dynamics). * Frameworks: Deep dive into Mem0, Letta (MemGPT), and LangMem. * Practice: Enterprise-grade solutions using Amazon Bedrock AgentCore  
+
+### 🔑 Key Concepts  
 
 ### 🧠 Mind Map (Key Concepts)
 [📥 **Download High-Resolution Mind Map** (mindmap.png)](./summaries/building-memory-for-agentic-ai-theory-frameworks-and-practice/building-memory-for-agentic-ai-theory-frameworks-and-practice-mindmap.png?raw=true)
@@ -218,7 +219,8 @@ The following frameworks and repositories are discussed in this guide, represent
  
 # 📚 Agent Evaluation (Eval) 
 Evaluating AI Agents requires a shift from simple output checks to analyzing multistep trajectories, environment changes, and tool calls. Use a mix of deterministic code, LLM-as-judge, and human review. Prioritize looking at real data over dashboards to refine logic.
-### Here are my study notes
+  
+### 🔑 Key Concepts  
 
 ### 🧠 Mind Map (Key Concepts)
 [📥 **Download High-Resolution Mind Map** (mindmap.png)](./summaries/../mindmap.png?raw=true)
