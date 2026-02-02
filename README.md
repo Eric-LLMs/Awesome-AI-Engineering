@@ -217,7 +217,7 @@ The following frameworks and repositories are discussed in this guide, represent
 <a id="agent-eval"></a>   
  
 # 📚 Book Note: Agent Evaluation (Eval) 
-A comprehensive guide on designing memory systems for AI Agents. This document synthesizes academic surveys with practical implementation strategies, covering: * Theory: Taxonomy of agent memory (Forms, Functions, Dynamics). * Frameworks: Deep dive into Mem0, Letta (MemGPT), and LangMem. * Practice: Enterprise-grade solutions using Amazon Bedrock AgentCore
+Evaluating AI Agents requires a shift from simple output checks to analyzing multistep trajectories, environment changes, and tool calls. Use a mix of deterministic code, LLM-as-judge, and human review. Prioritize looking at real data over dashboards to refine logic.
 ### Here are my study notes
 
 ### 🧠 Mind Map (Key Concepts)
