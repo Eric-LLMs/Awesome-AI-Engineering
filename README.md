@@ -1,6 +1,6 @@
 # 📘 Awesome-AI-Engineering. 
 
-####      The Full-Stack LLM Engineering Playbook. 
+####  The Full-Stack LLM Engineering Playbook. 
 
 <a id="top"></a>
 
@@ -18,7 +18,7 @@
 <br>  
 <a id="introduction-to-ai-agents"></a>  
   
-# 📚 Book Note: Introduction to AI Agents
+# 📚 Introduction to AI Agents
   
 ### Here are my study notes
 
@@ -59,7 +59,7 @@ To bridge theory with practice, I developed a modular AI Agent project that impl
 <br>  
 <a id="building-llms-for-production"></a>   
  
-# 📚 Book Note: Building LLMs for Production 
+# 📚 Building LLMs for Production 
 
 ### Here are my study notes
 
@@ -95,7 +95,7 @@ The production-grade principles discussed in this book—including **Fine-Tuning
 
 <a id="mastering-the-model-context-protocol"></a>   
  
-# 📚 Book Note: Mastering the Model Context Protocol (MCP)  
+# 📚 Mastering the Model Context Protocol (MCP)  
 
 ### Here are my study notes
 
@@ -130,7 +130,7 @@ The production-grade principles discussed in this book—including **Fine-Tuning
 
 <a id="agent-memory-part-i"></a>   
  
-# 📚 Book Note: Agent Memory Part I 
+# 📚 Agent Memory Part I 
 
 ### Here are my study notes
 
@@ -175,7 +175,7 @@ For a comprehensive list of papers related to Agent Memory, we highly recommend 
   
 <a id="building-memory-modules-for-agentic-ai-Systems"></a>   
  
-# 📚 Book Note: Building Memory Modules for Agentic AI Systems
+# 📚 Building Memory Modules for Agentic AI Systems
 A comprehensive guide on designing memory systems for AI Agents. This document synthesizes academic surveys with practical implementation strategies, covering: * Theory: Taxonomy of agent memory (Forms, Functions, Dynamics). * Frameworks: Deep dive into Mem0, Letta (MemGPT), and LangMem. * Practice: Enterprise-grade solutions using Amazon Bedrock AgentCore
 ### Here are my study notes
 
@@ -216,7 +216,7 @@ The following frameworks and repositories are discussed in this guide, represent
 
 <a id="agent-eval"></a>   
  
-# 📚 Book Note: Agent Evaluation (Eval) 
+# 📚 Agent Evaluation (Eval) 
 Evaluating AI Agents requires a shift from simple output checks to analyzing multistep trajectories, environment changes, and tool calls. Use a mix of deterministic code, LLM-as-judge, and human review. Prioritize looking at real data over dashboards to refine logic.
 ### Here are my study notes
 
