@@ -6,14 +6,14 @@
 
 ## 📑 Table of Contents
 
-| 📚 Book Title                                                             | 🔗 Quick Link                                                 |
-|:--------------------------------------------------------------------------|:--------------------------------------------------------------|
-| Introduction to AI Agents                                                 | [🔍 Explore](#introduction-to-ai-agents)                      |
-| Building LLMs for Production                                              | [🔍 Explore](#building-llms-for-production)                   |
-| Mastering the Model Context Protocol (MCP)                                | [🔍 Explore](#mastering-the-model-context-protocol)           |
-| Agent Memory Part I  (A Survey of Memory)                                 | [🔍 Explore](#agent-memory-part-i)                            |
-| Agent Memory Part II (Building Memory Modules for Agentic AI Systems)     | [🔍 Explore](#building-memory-modules-for-agentic-ai-Systems) |
-
+| 📚 Content                                                       | 🔗 Quick Link                                                 |
+|:----------------------------------------------------------------------|:--------------------------------------------------------------|
+| Introduction to AI Agents                                             | [🔍 Explore](#introduction-to-ai-agents)                      |
+| Building LLMs for Production                                          | [🔍 Explore](#building-llms-for-production)                   |
+| Mastering the Model Context Protocol (MCP)                            | [🔍 Explore](#mastering-the-model-context-protocol)           |
+| Agent Memory Part I  (A Survey of Memory)                             | [🔍 Explore](#agent-memory-part-i)                            |
+| Agent Memory Part II (Building Memory Modules for Agentic AI Systems) | [🔍 Explore](#building-memory-modules-for-agentic-ai-Systems) |
+| Agent Evaluation (Eval)                                               | [🔍 Explore](#agent-eval)                        |
 ---
 <br>  
 <a id="introduction-to-ai-agents"></a>  
@@ -214,3 +214,39 @@ The following frameworks and repositories are discussed in this guide, represent
 ---
 <br>  
 
+<a id="agent-eval"></a>   
+ 
+# 📚 Book Note: Agent Evaluation (Eval) 
+A comprehensive guide on designing memory systems for AI Agents. This document synthesizes academic surveys with practical implementation strategies, covering: * Theory: Taxonomy of agent memory (Forms, Functions, Dynamics). * Frameworks: Deep dive into Mem0, Letta (MemGPT), and LangMem. * Practice: Enterprise-grade solutions using Amazon Bedrock AgentCore
+### Here are my study notes
+
+### 🧠 Mind Map (Key Concepts)
+[📥 **Download High-Resolution Mind Map** (mindmap.png)](./summaries/../mindmap.png?raw=true)
+<br>  
+<details>
+  <summary>
+    <b><em>🔍 Click here to unfold the full Mind Map</em>
+    <br> (点击展开完整思维导图)
+    </b>
+  </summary>
+
+  ![memory solution in production](./summaries/../mindmap.png)
+ 
+</details>
+
+
+### 📑 Presentation Slides   
+  
+#### Agent Evaluation (Eval) 
+> 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
+[📥 View Slides (PDF)](/summaries/../e.pdf)   
+[📥 **Download PDF** (Direct Link)](/summaries/../e.pdf?raw=true)
+
+### 📑 Key Frameworks & Code Samples
+
+
+[⬆️ Back to Top : Table of Contents](#top)  
+---
+<br>  
+
+  
