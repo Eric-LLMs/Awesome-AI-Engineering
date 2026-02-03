@@ -223,7 +223,7 @@ Evaluating AI Agents requires a shift from simple output checks to analyzing mul
 ### 🔑 Key Concepts  
 
 ### 🧠 Mind Map (Key Concepts)
-[📥 **Download High-Resolution Mind Map** (mindmap.png)](./summaries/../mindmap.png?raw=true)
+[📥 **Download High-Resolution Mind Map** (mindmap.png)](./summaries/agent-evaluation/ai-agent-evaluation-framework.png?raw=true)
 <br>  
 <details>
   <summary>
@@ -232,7 +232,7 @@ Evaluating AI Agents requires a shift from simple output checks to analyzing mul
     </b>
   </summary>
 
-  ![memory solution in production](./summaries/../mindmap.png)
+  ![Agent Evaluation Framework](./summaries/agent-evaluation/ai-agent-evaluation-framework.png)
  
 </details>
 
