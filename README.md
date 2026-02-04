@@ -239,10 +239,10 @@ Evaluating AI Agents requires a shift from simple output checks to analyzing mul
 
 ### 📑 Presentation Slides   
   
-#### Agent Evaluation (Eval) 
+#### A Comprehensive Guide to Evaluating Al Agents  
 > 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
-[📥 View Slides (PDF)](/summaries/../e.pdf)   
-[📥 **Download PDF** (Direct Link)](/summaries/../e.pdf?raw=true)
+[📥 View Slides (PDF)](./summaries/agent-evaluation/agent-evaluation-engineering.pdf)   
+[📥 **Download PDF** (Direct Link)](./summaries/agent-evaluation/agent-evaluation-engineering.pdf?raw=true)
 
 ### 📑 Key Frameworks & Code Samples
 
