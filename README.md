@@ -13,7 +13,7 @@
 | Mastering the Model Context Protocol (MCP)                            | [🔍 Explore](#mastering-the-model-context-protocol)           |
 | Agent Memory Part I  (A Survey of Memory)                             | [🔍 Explore](#agent-memory-part-i)                            |
 | Agent Memory Part II (Building Memory Modules for Agentic AI Systems) | [🔍 Explore](#building-memory-modules-for-agentic-ai-Systems) |
-| Agent Evaluation (Eval)                                               | [🔍 Explore](#agent-eval)                        |
+| Agent Evaluation (Eval) Engineering                                   | [🔍 Explore](#agent-eval)                        |
 ---
 <br>  
 <a id="introduction-to-ai-agents"></a>  
@@ -55,6 +55,7 @@ To bridge theory with practice, I developed a modular AI Agent project that impl
 
   
 [⬆️ Back to Top : Table of Contents](#top)  
+  
 ---
 <br>  
 <a id="building-llms-for-production"></a>   
@@ -90,6 +91,7 @@ To bridge theory with practice, I developed a modular AI Agent project that impl
 The production-grade principles discussed in this book—including **Fine-Tuning**, **RAG optimization**, **LangChain**, **Prompt Engineering**, **Function-Calling**, **Agent**, etc.—have each been researched as a standalone module, and each module features multiple project implementations.  
  
 [⬆️ Back to Top : Table of Contents](#top)  
+  
 ---
 <br>  
 
@@ -125,6 +127,7 @@ The production-grade principles discussed in this book—including **Fine-Tuning
 👉 **[Explore Model Context Protocol (MCP) Projects on GitHub](https://github.com/Eric-LLMs/awesome-mcp-servers)** *A curated collection of industry-standard Model Context Protocol (MCP) server implementations.*
 
 [⬆️ Back to Top : Table of Contents](#top)  
+  
 ---
 <br>  
 
@@ -169,6 +172,7 @@ For a comprehensive list of papers related to Agent Memory, we highly recommend 
 
 
 [⬆️ Back to Top : Table of Contents](#top)  
+  
 ---
 <br>  
 
@@ -212,17 +216,34 @@ The following frameworks and repositories are discussed in this guide, represent
   Comprehensive collection of examples for using Amazon Bedrock, including various implementations of Agentic workflows and memory patterns.  
   
 [⬆️ Back to Top : Table of Contents](#top)  
+  
 ---
 <br>  
 
 <a id="agent-eval"></a>   
- 
-# 📚 Agent Evaluation (Eval) 
-Evaluating AI Agents requires a shift from simple output checks to analyzing multistep trajectories, environment changes, and tool calls. Use a mix of deterministic code, LLM-as-judge, and human review. Prioritize looking at real data over dashboards to refine logic.
   
-### 🔑 Key Concepts  
+# 📚 Agent Evaluation (Eval) Engineering
 
-### 🧠 Mind Map (Key Concepts)
+> *"In the age of Agents, your product is only as good as your ability to measure it."*
+
+Evaluating AI Agents requires a fundamental shift from simple output checks ("vibe checks") to analyzing multi-step trajectories, environment changes, and tool usage. This repository consolidates frameworks and engineering practices for moving from **intuition to instrumentation**.
+
+It synthesizes industry standards from Anthropic, LangChain, and real-world engineering practices to build a robust **Evaluation Harness**.
+
+---
+
+### 🔑 Key Concepts
+* **The Intuition Trap**: Why manual "vibe checks" fail as complexity scales.
+* **The Harness**: Building a standardized environment for agent execution composed of Inputs, Tasks, and Graders.
+* **Trajectory vs. Outcome**: Evaluating the *journey* (reasoning logs, tool calls) rather than just the *destination* (final answer).
+* **Reliability Metrics**:
+    * **Pass@k (Creativity)**: Can the agent succeed *at least once* in k tries? (Good for brainstorming).
+    * **Pass^k (Reliability)**: Can the agent succeed *every single time* in k tries? (Critical for autonomous agents).
+* **Swiss Cheese Model**: Layering defenses (Automated Evals → Human Review → Production Monitoring) to ensure reliability.
+
+---
+
+### 🧠 Mind Map (Framework Overview)
 [📥 **Download High-Resolution Mind Map** (mindmap.png)](./summaries/agent-evaluation/ai-agent-evaluation-framework.png?raw=true)
 <br>  
 <details>
@@ -236,19 +257,40 @@ Evaluating AI Agents requires a shift from simple output checks to analyzing mul
  
 </details>
 
+---
 
-### 📑 Presentation Slides   
-  
-#### A Comprehensive Guide to Evaluating Al Agents  
+### 📑 Presentation Slides
+A Comprehensive Guide to Evaluating AI Agents Focuses on the engineering framework for testing, including the "Clean Room" methodology, reliability metrics (Pass@k), and the "Harness" architecture. It treats evaluation as a core development practice.
+
 > 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
 [📥 View Slides (PDF)](./summaries/agent-evaluation/agent-evaluation-engineering.pdf)   
 [📥 **Download PDF** (Direct Link)](./summaries/agent-evaluation/agent-evaluation-engineering.pdf?raw=true)
 
-### 📑 Key Frameworks & Code Samples
-
-
-[⬆️ Back to Top : Table of Contents](#top)  
 ---
-<br>  
 
-  
+### 🛠️ Key Frameworks & Code Samples
+
+#### 1. The Tooling Stack (Ecosystem)
+Implementing a robust evaluation pipeline requires specific infrastructure. The following tools are referenced and utilized in this framework:
+
+| Tool | Category | Key Features |
+| :--- | :--- | :--- |
+| **[LangSmith](https://smith.langchain.com/)** | Tracing & Debugging | Full trajectory tracing, `runnableConfig` tagging for A/B testing, and dataset management. |
+| **[LangFuse](https://langfuse.com/)** | Observability | Open-source alternative for observability, prompt management, and lightweight evaluation. |
+| **[DeepEval](https://github.com/confident-ai/deepeval)** | Unit Testing | "Pytest for LLMs". Specific metrics for RAG (Hallucination, Answer Relevancy) and Agents. |
+| **[OpenEvals](https://github.com/langchain-ai/openevals)** | Graders | A library of pre-built "LLM-as-a-judge" prompts (Conciseness, Correctness, Coherence) compatible with LangSmith. |
+
+#### 2. Architecture: Hybrid Agent (Fast vs. Slow)
+To balance cost and performance, we implement a **Hybrid Agent Architecture**:
+* **Reactive Layer (System 1)**: Handles simple, direct queries (e.g., "What is the stock price?") with low latency.
+* **Deliberative Layer (System 2)**: Activated for complex planning or multi-step reasoning tasks.
+* **Coordination Layer**: A router that classifies intent and dispatches tasks.
+
+#### 3. Evaluation Strategy: The "Clean Room"
+To prevent "cheating" through shared state, every evaluation trial runs in a fresh container/sandbox.
+* **Isolation**: Fresh container for every trial.
+* **Mocking**: Simulate external APIs to control latency and deterministic outputs.
+* **Cleanup**: Aggressive state teardown (no shared history).
+
+[⬆️ Back to Top : Table of Contents](#top)
+
