@@ -10,6 +10,7 @@
 |:----------------------------------------------------------------------|:--------------------------------------------------------------|
 | Introduction to AI Agents                                             | [🔍 Explore](#introduction-to-ai-agents)                      |
 | Building LLMs for Production                                          | [🔍 Explore](#building-llms-for-production)                   |
+| Building High-Performance, Private AI Infrastructure for the Enterprise                           | [🔍 Explore](#high-performance-private-ai-infrastructure)           |
 | Mastering the Model Context Protocol (MCP)                            | [🔍 Explore](#mastering-the-model-context-protocol)           |
 | Agent Memory Part I  (A Survey of Memory)                             | [🔍 Explore](#agent-memory-part-i)                            |
 | Agent Memory Part II (Building Memory Modules for Agentic AI Systems) | [🔍 Explore](#building-memory-modules-for-agentic-ai-Systems) |
@@ -94,6 +95,43 @@ The production-grade principles discussed in this book—including **Fine-Tuning
   
 ---
 <br>  
+
+<a id="high-performance-private-ai-infrastructure"></a>   
+  
+# 📚 Building High-Performance, Private AI Infrastructure for the Enterprise
+
+### 🔑 Key Concepts  
+
+### 🧠 Mind Map (Key Concepts)
+[📥 **Download High-Resolution Mind Map** (.jpg)](./summaries/ap.jpg?raw=true)
+<br>  
+<details>
+  <summary>
+    <b><em>🔍 Click here to unfold the full Mind Map (mindmap.jpg)</em>
+    <br> (点击展开完整思维导图)
+    </b>
+  </summary>
+
+  ![Building High-Performance, Private AI Infrastructure for the Enterprise](./summaries/mindmap.jpg)
+ 
+</details>
+
+
+### 📑 Presentation Slides
+> 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
+[📥 View the "Building High-Performance, Private AI Infrastructure for the Enterprise" Slides (PDF)](./summaries/slides.pdf)   
+[📥 **Download PDF** (Direct Link)](./summaries/slides.pdf?raw=true)
+  
+
+## 🛠️ Hands-on Projects and Examples  
+
+👉 doning ....
+
+[⬆️ Back to Top : Table of Contents](#top)  
+  
+---
+<br>  
+
 
 <a id="mastering-the-model-context-protocol"></a>   
  
