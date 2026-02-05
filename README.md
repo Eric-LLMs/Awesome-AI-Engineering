@@ -62,6 +62,7 @@ To bridge theory with practice, I developed a modular AI Agent project that impl
 <a id="building-llms-for-production"></a>   
  
 # 📚 Building LLMs for Production 
+This guide covers LLM production, from Transformer architectures to advanced techniques like RAG and Fine-Tuning. It explores frameworks like LangChain, methods to mitigate hallucinations, and optimization via quantization. Learn to build autonomous agents for real-world use.
 
 ### 🔑 Key Concepts  
 
