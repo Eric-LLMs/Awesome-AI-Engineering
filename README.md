@@ -7,7 +7,10 @@
 ## 📑 Table of Contents
 
 | 📚 Content                                                       | 🔗 Quick Link                                                 |
-|:----------------------------------------------------------------------|:--------------------------------------------------------------|
+|:---
+
+- [SuperCompress](https://github.com/arjunkshah/supercompress) - Open-source learned prompt compression for LLMs. Cuts ~65% of tokens before inference using a ~5K parameter CPU policy with 100% oracle recall. Check the live demo at https://supercompress.dev. pip install supercompress.
+-------------------------------------------------------------------|:--------------------------------------------------------------|
 | Introduction to AI Agents                                             | [🔍 Explore](#introduction-to-ai-agents)                      |
 | Building LLMs for Production                                          | [🔍 Explore](#building-llms-for-production)                   |
 | Building High-Performance, Private AI Infrastructure for the Enterprise                           | [🔍 Explore](#high-performance-private-ai-infrastructure)           |
