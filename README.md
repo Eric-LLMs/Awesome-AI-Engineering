@@ -1,6 +1,9 @@
 # 📘 Awesome AI Engineering   
 
-####  The Full-Stack LLM Engineering Playbook. 
+####  The Full-Stack LLM Engineering Playbook.
+
+For a deep dive into the research frontier, explore the [📖 LLM Technology Landscape & Evolution](https://github.com/Eric-LLMs/LLMs-Lab/tree/main/Docs) — a curated reading list covering the full LLM stack, from model architectures and training, fine-tuning, inference optimization, reasoning, and Agent systems.  
+The guides below combine slides, mind maps, and hands-on code to move from concept to implementation.
 
 <a id="top"></a>
 
@@ -24,11 +27,11 @@
 ### 🔑 Key Concepts  
 
 ### 🧠 Mind Map (Key Concepts)
-  [📥 **Download High-Resolution Mind Map** (.jpg)](./summaries/introduction-to-ai-agents/agents-architecture-operations-and-evolution-mindmap.jpg?raw=true)
+  [📥 **Download High-Resolution Mind Map** (.jpg)](https://raw.githubusercontent.com/Eric-LLMs/Awesome-AI-Engineering/main/summaries/introduction-to-ai-agents/agents-architecture-operations-and-evolution-mindmap.jpg)
   <br>  
 <details>
   <summary>
-    <b><em>🔍 Click here to unfold the full Mind Map (agents-architecture-operations-and-evolution-mindmap.jpg)</em> 
+    <b><em><a>🔍 Click here to unfold the full Mind Map (agents-architecture-operations-and-evolution-mindmap.jpg)</a></em> 
     <br> (点击展开完整思维导图)
     </b>
   </summary>  
@@ -40,11 +43,11 @@
 ### 📑 Presentation Slides
 > 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
 [📥 View the "Introduction to AI Agents" Slides (PDF)](./summaries/introduction-to-ai-agents/agents-architecture-operations-slides.pdf)   
-[📥 **Download PDF** (Direct Link)](./summaries/introduction-to-ai-agents/agents-architecture-operations-slides.pdf?raw=true)  
+[📥 **Download PDF** (Direct Link)](https://raw.githubusercontent.com/Eric-LLMs/Awesome-AI-Engineering/main/summaries/introduction-to-ai-agents/agents-architecture-operations-slides.pdf)  
 > 
   
 
-### 🚀 Practical Implementation: Task-Oriented AI Agent  
+### 🚀 Hands-on: A Minimal ReAct Agent  
 👉 [**View the AI Agent Project in the LLMs-Lab repository on the Eric-LLMs GitHub profile.**](https://github.com/Eric-LLMs/LLMs-Lab/tree/main/Agent/Agent_Project)
   
 To bridge theory with practice, I developed a modular AI Agent project that implements autonomous reasoning and task execution:
@@ -54,6 +57,19 @@ To bridge theory with practice, I developed a modular AI Agent project that impl
 * **Functional Tools:** Includes custom tools for deep data analysis (Excel processing via Pandas), automated communication via email, PDF-based QA interrogation (**FileQATool**), requirements-driven document generation (**WriterTool**), and dynamic script-based auditing of structured files using custom heuristics and thresholds (**PythonTool**).
 * **End-to-End Workflow:** Supports real-world scenarios, such as identifying underperforming suppliers from sales records and autonomously drafting/sending notifications.
 
+### 🧰 Key Frameworks & References
+
+The following open-source projects represent the current frontier in agentic AI engineering:
+
+| Project | Description | Key Strengths |
+| :--- | :--- | :--- |
+| **[Claude Code](https://github.com/anthropics/claude-code)** | Anthropic's official terminal-based agentic coding tool | Agentic coding, terminal-native, full codebase understanding, git workflows |
+| **[Hermes-Agent](https://github.com/NousResearch/hermes-agent)** | Self-improving AI agent with built-in learning loop | Skill creation from experience, cross-session memory, multi-channel (CLI/Telegram/Discord/Slack) |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | Personal AI assistant, local-first, any OS/platform | Local-first Gateway, multi-channel messaging, voice support, session & tool management |
+| **[claurst](https://github.com/Kuberwastaken/claurst)** | Community-maintained reference implementation of Claude Code | Internal architecture study, reverse-engineering insights, codebase structure reference |
+
+> These projects showcase diverse agent architectures — from developer-focused coding agents (Claude Code/claurst) to general-purpose personal assistants (OpenClaw) and self-learning agents (Hermes-Agent). Studying their design decisions is valuable for building your own agent systems.
+  
   
 [⬆️ Back to Top : Table of Contents](#top)  
   
@@ -67,11 +83,11 @@ This guide covers LLM production, from Transformer architectures to advanced tec
 ### 🔑 Key Concepts  
 
 ### 🧠 Mind Map (Key Concepts)
-[📥 **Download High-Resolution Mind Map** (.jpg)](./summaries/building-llms-for-production/building-llms-for-production-mindmap.jpg?raw=true)
+[📥 **Download High-Resolution Mind Map** (.jpg)](https://raw.githubusercontent.com/Eric-LLMs/Awesome-AI-Engineering/main/summaries/building-llms-for-production/building-llms-for-production-mindmap.jpg)
 <br>  
 <details>
   <summary>
-    <b><em>🔍 Click here to unfold the full Mind Map (building-llms-for-production-mindmap.jpg)</em>
+    <b><em><a>🔍 Click here to unfold the full Mind Map (building-llms-for-production-mindmap.jpg)</a></em>
     <br> (点击展开完整思维导图)
     </b>
   </summary>
@@ -84,7 +100,7 @@ This guide covers LLM production, from Transformer architectures to advanced tec
 ### 📑 Presentation Slides
 > 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
 [📥 View the "Building LLMs for Production" Slides (PDF)](./summaries/building-llms-for-production/building-llms-for-production-slides.pdf)   
-[📥 **Download PDF** (Direct Link)](./summaries/building-llms-for-production/building-llms-for-production-slides.pdf?raw=true)
+[📥 **Download PDF** (Direct Link)](https://raw.githubusercontent.com/Eric-LLMs/Awesome-AI-Engineering/main/summaries/building-llms-for-production/building-llms-for-production-slides.pdf)
   
 
 ### 🛠️ Hands-on Lab & Examples  
@@ -99,16 +115,16 @@ The production-grade principles discussed in this book—including **Fine-Tuning
 
 <a id="high-performance-private-ai-infrastructure"></a>   
   
-# 📚 Building High-Performance, Private AI Infrastructure for the Enterprise doning ....
+# 📚 Building High-Performance, Private AI Infrastructure for the Enterprise WIP (Work In Progress)
 
 ### 🔑 Key Concepts  
 
 ### 🧠 Mind Map (Key Concepts)
-[📥 **Download High-Resolution Mind Map** (.jpg)](./summaries/ap.jpg?raw=true)
+[📥 **Download High-Resolution Mind Map** (.jpg)](https://raw.githubusercontent.com/Eric-LLMs/Awesome-AI-Engineering/main/summaries/ap.jpg)
 <br>  
 <details>
   <summary>
-    <b><em>🔍 Click here to unfold the full Mind Map (mindmap.jpg)</em>
+    <b><em><a>🔍 Click here to unfold the full Mind Map (mindmap.jpg)</a></em>
     <br> (点击展开完整思维导图)
     </b>
   </summary>
@@ -121,12 +137,12 @@ The production-grade principles discussed in this book—including **Fine-Tuning
 ### 📑 Presentation Slides
 > 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
 [📥 View the "Building High-Performance, Private AI Infrastructure for the Enterprise" Slides (PDF)](./summaries/slides.pdf)   
-[📥 **Download PDF** (Direct Link)](./summaries/slides.pdf?raw=true)
+[📥 **Download PDF** (Direct Link)](https://raw.githubusercontent.com/Eric-LLMs/Awesome-AI-Engineering/main/summaries/slides.pdf)
   
 
 ## 🛠️ Hands-on Projects and Examples  
 
-👉 doning ....
+👉 WIP (Work In Progress)
 
 [⬆️ Back to Top : Table of Contents](#top)  
   
@@ -141,11 +157,11 @@ The production-grade principles discussed in this book—including **Fine-Tuning
 ### 🔑 Key Concepts  
 
 ### 🧠 Mind Map (Key Concepts)
-[📥 **Download High-Resolution Mind Map** (.jpg)](./summaries/mastering-the-model-context-protocol/mastering-the-model-context-protocol-mindmap.jpg?raw=true)
+[📥 **Download High-Resolution Mind Map** (.jpg)](https://raw.githubusercontent.com/Eric-LLMs/Awesome-AI-Engineering/main/summaries/mastering-the-model-context-protocol/mastering-the-model-context-protocol-mindmap.jpg)
 <br>  
 <details>
   <summary>
-    <b><em>🔍 Click here to unfold the full Mind Map (mastering-the-model-context-protocol-mindmap.jpg)</em>
+    <b><em><a>🔍 Click here to unfold the full Mind Map (mastering-the-model-context-protocol-mindmap.jpg)</a></em>
     <br> (点击展开完整思维导图)
     </b>
   </summary>
@@ -158,7 +174,7 @@ The production-grade principles discussed in this book—including **Fine-Tuning
 ### 📑 Presentation Slides
 > 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
 [📥 View the "Mastering the Model Context Protocol (MCP)" Slides (PDF)](./summaries/mastering-the-model-context-protocol/mastering-the-model-context-protocol-slides.pdf)   
-[📥 **Download PDF** (Direct Link)](./summaries/mastering-the-model-context-protocol/mastering-the-model-context-protocol-slides.pdf?raw=true)
+[📥 **Download PDF** (Direct Link)](https://raw.githubusercontent.com/Eric-LLMs/Awesome-AI-Engineering/main/summaries/mastering-the-model-context-protocol/mastering-the-model-context-protocol-slides.pdf)
   
 
 ## 🛠️ Hands-on Projects and Examples  
@@ -177,11 +193,11 @@ The production-grade principles discussed in this book—including **Fine-Tuning
 ### 🔑 Key Concepts  
 
 ### 🧠 Mind Map (Key Concepts)
-[📥 **Download High-Resolution Mind Map** (.jpg)](./summaries/memory-in-the-age-of-ai-agents-survey/unforgettable_agents_architecting_ai_memory-mindmap.jpg?raw=true)
+[📥 **Download High-Resolution Mind Map** (.jpg)](https://raw.githubusercontent.com/Eric-LLMs/Awesome-AI-Engineering/main/summaries/memory-in-the-age-of-ai-agents-survey/unforgettable_agents_architecting_ai_memory-mindmap.jpg)
 <br>  
 <details>
   <summary>
-    <b><em>🔍 Click here to unfold the full Mind Map (unforgettable_agents_architecting_ai_memory-mindmap.jpg)</em>
+    <b><em><a>🔍 Click here to unfold the full Mind Map (unforgettable_agents_architecting_ai_memory-mindmap.jpg)</a></em>
     <br> (点击展开完整思维导图)
     </b>
   </summary>
@@ -196,12 +212,12 @@ The production-grade principles discussed in this book—including **Fine-Tuning
 #### A Blueprint for Memory in Agentic Intelligence
 > 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
 [📥 View the "A Blueprint for Memory in Agentic Intelligence" Slides (PDF)](./summaries/memory-in-the-age-of-ai-agents-survey/a-blueprint-for-memory-in-agentic-intelligence.pdf)   
-[📥 **Download PDF** (Direct Link)](./summaries/memory-in-the-age-of-ai-agents-survey/a-blueprint-for-memory-in-agentic-intelligence.pdf?raw=true)
+[📥 **Download PDF** (Direct Link)](https://raw.githubusercontent.com/Eric-LLMs/Awesome-AI-Engineering/main/summaries/memory-in-the-age-of-ai-agents-survey/a-blueprint-for-memory-in-agentic-intelligence.pdf)
   
 #### Unforgettable Agents Architecting AI Memory
 > 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
 [📥 View the "Unforgettable Agents Architecting AI Memory" Slides (PDF)](./summaries/memory-in-the-age-of-ai-agents-survey/unforgettable_agents_architecting_ai_memory.pdf)   
-[📥 **Download PDF** (Direct Link)](./summaries/memory-in-the-age-of-ai-agents-survey/unforgettable_agents_architecting_ai_memory.pdf?raw=true)
+[📥 **Download PDF** (Direct Link)](https://raw.githubusercontent.com/Eric-LLMs/Awesome-AI-Engineering/main/summaries/memory-in-the-age-of-ai-agents-survey/unforgettable_agents_architecting_ai_memory.pdf)
 
 
 ### 📑 Further Reading / Resources
@@ -224,11 +240,11 @@ A comprehensive guide on designing memory systems for AI Agents. This document s
 ### 🔑 Key Concepts  
 
 ### 🧠 Mind Map (Key Concepts)
-[📥 **Download High-Resolution Mind Map** (mindmap.png)](./summaries/building-memory-for-agentic-ai-theory-frameworks-and-practice/building-memory-for-agentic-ai-theory-frameworks-and-practice-mindmap.png?raw=true)
+[📥 **Download High-Resolution Mind Map** (mindmap.png)](https://raw.githubusercontent.com/Eric-LLMs/Awesome-AI-Engineering/main/summaries/building-memory-for-agentic-ai-theory-frameworks-and-practice/building-memory-for-agentic-ai-theory-frameworks-and-practice-mindmap.png)
 <br>  
 <details>
   <summary>
-    <b><em>🔍 Click here to unfold the full Mind Map</em>
+    <b><em><a>🔍 Click here to unfold the full Mind Map</a></em>
     <br> (点击展开完整思维导图)
     </b>
   </summary>
@@ -243,7 +259,7 @@ A comprehensive guide on designing memory systems for AI Agents. This document s
 #### Building Memory for Agentic AI: Theory, Frameworks, and Practice
 > 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
 [📥 View Slides (PDF)](./summaries/building-memory-for-agentic-ai-theory-frameworks-and-practice/building-memory-for-agentic-ai-theory-frameworks-and-practice.pdf)   
-[📥 **Download PDF** (Direct Link)](./summaries/building-memory-for-agentic-ai-theory-frameworks-and-practice/building-memory-for-agentic-ai-theory-frameworks-and-practice.pdf?raw=true)
+[📥 **Download PDF** (Direct Link)](https://raw.githubusercontent.com/Eric-LLMs/Awesome-AI-Engineering/main/summaries/building-memory-for-agentic-ai-theory-frameworks-and-practice/building-memory-for-agentic-ai-theory-frameworks-and-practice.pdf)
 
 ### 📑 Key Frameworks & Code Samples
 
@@ -283,11 +299,11 @@ It synthesizes industry standards from Anthropic, LangChain, and real-world engi
 ---
 
 ### 🧠 Mind Map (Framework Overview)
-[📥 **Download High-Resolution Mind Map** (mindmap.png)](./summaries/agent-evaluation/ai-agent-evaluation-framework.png?raw=true)
+[📥 **Download High-Resolution Mind Map** (mindmap.png)](https://raw.githubusercontent.com/Eric-LLMs/Awesome-AI-Engineering/main/summaries/agent-evaluation/ai-agent-evaluation-framework.png)
 <br>  
 <details>
   <summary>
-    <b><em>🔍 Click here to unfold the full Mind Map</em>
+    <b><em><a>🔍 Click here to unfold the full Mind Map</a></em>
     <br> (点击展开完整思维导图)
     </b>
   </summary>
@@ -303,7 +319,7 @@ A Comprehensive Guide to Evaluating AI Agents Focuses on the engineering framewo
 
 > 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
 [📥 View Slides (PDF)](./summaries/agent-evaluation/agent-evaluation-engineering.pdf)   
-[📥 **Download PDF** (Direct Link)](./summaries/agent-evaluation/agent-evaluation-engineering.pdf?raw=true)
+[📥 **Download PDF** (Direct Link)](https://raw.githubusercontent.com/Eric-LLMs/Awesome-AI-Engineering/main/summaries/agent-evaluation/agent-evaluation-engineering.pdf)
 
 ---
 
