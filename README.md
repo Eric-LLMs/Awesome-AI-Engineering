@@ -120,25 +120,10 @@ The production-grade principles discussed in this book—including **Fine-Tuning
 ### 🔑 Key Concepts  
 
 ### 🧠 Mind Map (Key Concepts)
-[📥 **Download High-Resolution Mind Map** (.jpg)](https://raw.githubusercontent.com/Eric-LLMs/Awesome-AI-Engineering/main/summaries/ap.jpg)
-<br>  
-<details>
-  <summary>
-    <b><em><a>🔍 Click here to unfold the full Mind Map (mindmap.jpg)</a></em>
-    <br> (点击展开完整思维导图)
-    </b>
-  </summary>
-
-  ![Building High-Performance, Private AI Infrastructure for the Enterprise](./summaries/mindmap.jpg)
- 
-</details>
-
+*(Coming soon)*
 
 ### 📑 Presentation Slides
-> 💡 **Tip:** Press `Ctrl` + `Click` (or Command + Click) to open in a new tab.   
-[📥 View the "Building High-Performance, Private AI Infrastructure for the Enterprise" Slides (PDF)](./summaries/slides.pdf)   
-[📥 **Download PDF** (Direct Link)](https://raw.githubusercontent.com/Eric-LLMs/Awesome-AI-Engineering/main/summaries/slides.pdf)
-  
+*(Coming soon)*
 
 ## 🛠️ Hands-on Projects and Examples  
 
