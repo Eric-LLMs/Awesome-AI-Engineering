@@ -2,8 +2,7 @@
 
 ####  The Full-Stack LLM Engineering Playbook.
 
-For a deep dive into the research frontier, explore the [📖 LLM Technology Landscape & Evolution](https://github.com/Eric-LLMs/LLMs-Lab/tree/main/Docs) — a curated reading list covering the full LLM stack, from model architectures and training, fine-tuning, inference optimization, reasoning, and Agent systems.  
-The guides below combine slides, mind maps, and hands-on code to move from concept to implementation.
+The guides below combine slides, mind maps, and hands-on code to move from concept to implementation. For a deep dive into the research frontier, explore the [📖 LLM Technology Landscape & Evolution](https://github.com/Eric-LLMs/LLMs-Lab/tree/main/Docs) — a curated reading list covering the full LLM stack, from model architectures and training, fine-tuning, inference optimization, reasoning, and Agent systems.  
 
 <a id="top"></a>
 
@@ -115,7 +114,7 @@ The production-grade principles discussed in this book—including **Fine-Tuning
 
 <a id="high-performance-private-ai-infrastructure"></a>   
   
-# 📚 Building High-Performance, Private AI Infrastructure for the Enterprise (WIP)
+# 📚 Building High-Performance, Private AI Infrastructure for the Enterprise WIP (Work In Progress)
 
 ### 🔑 Key Concepts  
 
